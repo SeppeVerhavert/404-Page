@@ -4,10 +4,10 @@
     <link href="styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
-        function jedi()
-        {
-            document.getElementById("Yoda").style.visibility ='hidden';
-        }
+        function myFunction() {
+        var element = document.getElementById("Yoda").className = 'Yoda';
+        element.classList.add("Yoda");
+        } 
     </script>
 </head>
 <body>
@@ -16,7 +16,7 @@
   <div class="text">
     <h1>"The greatest teacher, failure is."</h1>
     <h2>Go back you now must.</h2>
-    <a href="https://github.com/SeppeVerhavert?tab=repositories" target="blank"><button onmouseover="jedi()">Use the Force</button></a>
+    <a href="https://github.com/SeppeVerhavert?tab=repositories" target="blank"><button onmouseover=myFunction()>Use the Force</button></a>
   </div>
 </div>
 
