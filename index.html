@@ -3,6 +3,12 @@
     <title>VCard</title>
     <link href="styles.css" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        function jedi()
+        {
+            document.getElementById("Yoda").style.visibility ='hidden';
+        }
+    </script>
 </head>
 <body>
 
@@ -10,11 +16,11 @@
   <div class="text">
     <h1>"The greatest teacher, failure is."</h1>
     <h2>Go back you now must.</h2>
-    <a href="https://github.com/SeppeVerhavert?tab=repositories" target="blank"><button>Use the Force</button></a>
+    <a href="https://github.com/SeppeVerhavert?tab=repositories" target="blank"><button onmouseover="jedi()">Use the Force</button></a>
   </div>
 </div>
 
-    <image id="Yoda" class = "animated fadeIn" src="https://i.imgur.com/asmnNgj.png">
+    <img id="Yoda" src="https://i.imgur.com/asmnNgj.png">
 
 </body>
 </html>
